@@ -4,15 +4,11 @@
 
 void NaturalNumbers (int N)
 {
-    //for (int i = 0; i < N; i++)
-    //while (N > 0)
     if (N == 0) return;
     {
         Console.WriteLine($"{N}");
         NaturalNumbers (N-1);
-        //return;
     }
-    //return;
 }
 
 int N = 8;
